@@ -1,0 +1,8 @@
+n=[0,1,1,2,3,4,3,0,5]
+def remove_duplicate(duplist):
+    noduplist=[]
+    for i in duplist:
+        if i not in noduplist:
+            noduplist.append(i)
+    return noduplist        
+print(remove_duplicate(n))
