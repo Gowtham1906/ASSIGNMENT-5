@@ -1,4 +1,5 @@
 n=int(input("enter the value:"))
+arr=[n]
 a=0
 b=1
 if n==1:
